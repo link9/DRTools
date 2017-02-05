@@ -7,7 +7,8 @@ def updn_to_str(x):
         return 'UP'
     elif list(set(list(x))) == ['DN']:
         return 'DN'
-
+        #comment
+        
 def json_from_url(url, ret=10):
     
     while True:
